@@ -163,16 +163,17 @@ aside---------------------------------------------------------------------------
     height: 920px;
     /* background-color: #2A2F370A; */
     display: grid;
-    grid-template-rows: 80px 40px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 40px 40px 80px 80px 80px 80px 80px 80px 80px 80px;
     gap: 8px;
 }
 
 .section-top{
     /* max-width: 867px; */
-    height: 80px;
+    height: 88px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #2a2f371a;
+    margin-bottom: 240px;
 }
 
 .h2{
@@ -225,7 +226,79 @@ aside---------------------------------------------------------------------------
     height: 40px;
 }
 
+.filtr{
+    height: 40px;
+    background-color: var(--white-color);
+}
+
 .articles{
     height: 80px;
     background-color: var(--white-color);
+}
+
+/* footer----------------------------------------------------------------------------------------------------- */
+
+
+.footer{
+    max-width: 1920px;
+    height: 304px;
+    margin: 0 auto;
+    background-color: #2A2F37;
+}
+
+.footer-wrapper{
+    max-width: 1172px;
+    margin: 0 auto;
+    display: grid;
+    gap: 43px;
+    padding: 48px 0;
+    color: var(--white-color);
+  
+
+}
+
+.footer-upper-container{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-container{
+    width: 420px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    display: flex;
+    /* column-gap: 39px; */
+}
+
+.footer-line{
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+.footer-links-sm-container{
+    width: 161px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.footer-nav-list{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-link{
+    color: var(--white-color);
+}
+
+.footer-bottom{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+    border-top: 1px solid var(--white-color);
 }
