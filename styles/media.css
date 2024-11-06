@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+    .aside{
+        width: 0;
+        visibility: hidden;
+    }
+
+    .aside-btn-account{
+        width: 0;
+    }
+
+    .main-section{
+        float: left;
+        width: 70%;
+    }
+}

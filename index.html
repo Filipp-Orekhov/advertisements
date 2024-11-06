@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/Normalize.css">
     <link rel="fonts" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/styles.css">   
+    <link rel="stylesheet" href="./styles/styles.css">  
+    <link rel="stylesheet" href="./styles/media.css"> 
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
             <span>
                 Войти
             </span>
-                <img src="./imgs/Search.svg" alt="поиск" class="header-search-img">
+                <div class="search-header-img"></div>
             </button>
         </div>
     </header>
@@ -30,7 +31,7 @@
                 <button class="btn-reset aside-a-btn">
                     А
                 </button>
-                <div style="display: grid;">
+                <div class="aside-acc-container">
                     <button class="btn-reset aside-account-name">
                         Алексей У.
                     </button>
@@ -58,21 +59,129 @@
                     <div class="plus"></div> 
                 </button>
             </div>
-            <div class="tipa-nav">
-
+            <div class="search-main">
+                <label class="label-main">
+                    <input type="text" placeholder="Найти объявление"  class="label-search-main">
+                    <div class="search-main-img search-img-position"></div>
+                </label>
+                <button class="btn-reset btn-filtr">
+                    <div>Фильтровать</div>
+                    <div class="filter-icon">
+                        <div class="line-long"></div>
+                        <div class="line-average"></div>
+                        <div class="line-short"></div>
+                    </div>
+                </button>
+                <div class="search-numbers-container">
+                    <span class="filter-numbers">1-8 из 145</span>
+                    <div class="icon-fewer-container">
+                        <button class="btn-rset icon-fewer icon-fewer-position"></button>
+                    </div>
+                    <div class="icon-lager-container">
+                        <button class="btn-reset icon-lager icon-lager-position"></button>
+                    </div>
+                </div>
             </div>
-            <div class="filtr">
-
+            <div class="filter">
+                <div class="triangles-container">
+                    <span>Название объявления</span>
+                    <div class="triangles">
+                        <button class="btn-up btn-reset"></button>
+                        <button class="btn-down btn-reset"></button>
+                    </div>
+                </div>
+                <span>Категория</span>
+                <span>Дата публикации</span>
+                <span>Публикация</span>
             </div>
-            <article class="articles"></article>
-            <article class="articles"></article>
-            <article class="articles"></article>
-            <article class="articles"></article>
-            <article class="articles"></article>
-            <article class="articles"></article>
-            <article class="articles"></article>
-            <article class="articles"></article>
-        
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
+            <article class="articles">
+                <h3 class="product-name">Чепчик</h3>
+                <span>Одежда</span>
+                <time datetime="2020-09-12">12 сентября 2020</time>
+                <span>Да</span>
+                <div class="three-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+            </article>
         </section>
     </main>
     <footer class="footer">
@@ -94,28 +203,6 @@
                     <a href="#"><img src="./imgs/imges-footer/vk.svg" alt="ссылка вк"></a>
                 </div>
             </div>
-            <nav class="footer-nav">
-                <ul class="footer-nav-list list-reset">
-                    <li>
-                        <a class="footer-nav-link" href="#">Курсы</a>
-                    </li>
-                    <li>
-                        <a class="footer-nav-link" href="#">Трудоустройство</a>
-                    </li>
-                    <li>
-                        <a class="footer-nav-link" href="#">Сотрудничество</a>
-                    </li>
-                    <li>
-                        <a class="footer-nav-link" href="#">O Hibrain</a>
-                    </li>
-                    <li>
-                        <a class="footer-nav-link" href="#">Новости</a>
-                    </li>
-                    <li>
-                        <a class="footer-nav-link" href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
             <div class="footer-bottom">
                 <span>
                     © ООО «Лад Ай Ти», 2020
